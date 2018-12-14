@@ -1,0 +1,450 @@
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  14 DEC 2018 07:15
+ restricted system commands enabled.
+**Marius_Olariu_design.tex
+(./Marius_Olariu_design.tex
+LaTeX2e <2018-04-01> patch level 2
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /Users/macbookpro/Library/texlive/2018/texmf-var/lu
+atex-cache/generic)(using read cache: /usr/local/texlive/2018/texmf-var/luatex-c
+ache/generic /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/gener
+ic)
+luaotfload | conf : Root cache directory is /Users/macbookpro/Library/texlive/20
+18/texmf-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /Users/macbookpro/Library/texlive/20
+18/texmf-var/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.156 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/macbookpro/Library/texl
+ive/2018/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /Us
+ers/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman10-regular.luc))
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks15
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen110
+\Gm@wd@mp=\dimen111
+\Gm@odd@mp=\dimen112
+\Gm@even@mp=\dimen113
+\Gm@layoutwidth=\dimen114
+\Gm@layoutheight=\dimen115
+\Gm@layouthoffset=\dimen116
+\Gm@layoutvoffset=\dimen117
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen118
+\WF@size=\dimen119
+\c@WF@wrappedlines=\count91
+\WF@box=\box27
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks18
+\float@box=\box28
+\@float@everytoks=\toks19
+\@floatcapt=\box29
+)
+(./Marius_Olariu_design.aux)
+\openout1 = Marius_Olariu_design.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen120
+\scratchbox=\box30
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen121
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+))))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks22
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<./imgs/uws_logo.png, id=1, 2007.5pt x 305.14pt>
+File: ./imgs/uws_logo.png Graphic file (type png)
+<use ./imgs/uws_logo.png>
+Package luatex.def Info: ./imgs/uws_logo.png  used on input line 24.
+(luatex.def)             Requested size: 142.25475pt x 42.6774pt.
+(load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
+/fonts/otl/lmroman17-regular.luc)(load luc: /Users/macbookpro/Library/texlive/20
+18/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /Users
+/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroma
+n10-bolditalic.luc)(load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/l
+uatex-cache/generic/fonts/otl/lmroman12-regular.luc) [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./imgs/uw
+s_logo.png>]
+(./Marius_Olariu_design.toc(load luc: /Users/macbookpro/Library/texlive/2018/tex
+mf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+
+\openout3 = Marius_Olariu_design.toc
+ [1]
+<imgs/sw_splash.png, id=16, 302.12875pt x 665.48625pt>
+File: imgs/sw_splash.png Graphic file (type png)
+<use imgs/sw_splash.png>
+Package luatex.def Info: imgs/sw_splash.png  used on input line 65.
+(luatex.def)             Requested size: 149.6003pt x 329.51317pt.
+(load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
+/fonts/otl/lmroman10-italic.luc)
+Underfull \hbox (badness 2050) in paragraph at lines 76--77
+\TU/lmr/m/it/10 In-ter-faces\TU/lmr/m/n/10 . In or-der to talk about the fu-tur
+e it is of-ten good to
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 76--77
+\TU/lmr/m/it/10 In-ter-faces\TU/lmr/m/n/10 . In the early days of com-put-ing, 
+around 1940s, com-
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 76--77
+\TU/lmr/m/n/10 put-ers used punched cards (pa-per cards hav-ing per-fo-rated ho
+les) to
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 76--77
+\TU/lmr/m/n/10 read data and to ex-e-cute pro-grams (set of in-struc-tions stor
+ed on
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 76--77
+\TU/lmr/m/n/10 these punched cards). In this stage, there is no ac-tual \TU/lmr
+/m/it/10 User In-ter-
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 76--77
+\TU/lmr/m/it/10 face\TU/lmr/m/n/10 , the com-puter just reads in-put and out-pu
+ts the re-sult of com-
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 76--77
+\TU/lmr/m/n/10 pu-ta-tion. One ex-am-ple of a pro-gram that can be stored on a 
+set
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 76--77
+\TU/lmr/m/n/10 of punched cards is a ba-sic al-go-rithm used to fire a tor-pedo
+ at a
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 76--77
+\TU/lmr/m/n/10 mov-ing tar-get (sub-marines in World War 2 used a pro-gram of t
+his
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 76--77
+\TU/lmr/m/n/10 kind). How-ever, this type of com-put-ing is pretty lim-ited in 
+the
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 76--77
+\TU/lmr/m/n/10 sense that there is no in-ter-ac-tion be-tween the hu-man and th
+e com-
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 76--77
+\TU/lmr/m/n/10 puter, there is no mem-ory and it takes time to ob-tain valu-abl
+e re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+[2<./imgs/sw_splash.png>] [3]
+<imgs/Google_Wallpapers.png, id=25, 963.6pt x 722.7pt>
+File: imgs/Google_Wallpapers.png Graphic file (type png)
+<use imgs/Google_Wallpapers.png>
+Package luatex.def Info: imgs/Google_Wallpapers.png  used on input line 143.
+(luatex.def)             Requested size: 299.20059pt x 224.39859pt.
+
+Overfull \hbox (149.6003pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 152--154
+\TU/lmr/m/n/10 the wall-pa-per should be changed, this ap-pli-ca-tion pro-vides
+. Also, it
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 152--154
+\TU/lmr/m/n/10 gives you the pos-si-bil-ity to se-lect a folder from sys-tem ex
+-plorer with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Overfull \hbox (2.45242pt too wide) in paragraph at lines 191--192
+[]\TU/lmr/m/n/10 Ap-ple. (2018) Avail-able: https://de-vel-oper.ap-ple.com/de-s
+ign/human-interface-guidelines/ios/overview/themes/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+[4<./imgs/Google_Wallpapers.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+[5] (./Marius_Olariu_design.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 2486 strings out of 494413
+ 100000,128383 words of node,token memory allocated
+ 370 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 48 glue_spec, 3 attribute_list
+, 1 write nodes
+   avail lists: 1:3,2:217,3:102,4:76,5:297,6:25,7:5104,8:21,9:89,10:66,11:344
+ 6513 multiletter control sequences out of 65536+600000
+ 34 fonts using 2529991 bytes
+ 41i,5n,32p,1132b,190s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
+.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold
+.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regu
+lar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-b
+olditalic.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmrom
+an12-bold.otf>
+Output written on Marius_Olariu_design.pdf (6 pages, 613304 bytes).
+
+PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

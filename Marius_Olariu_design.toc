@@ -1,0 +1,15 @@
+\contentsline {section}{Introduction}{2}
+\contentsline {section}{Research Developments }{2}
+\contentsline {subsection}{App Organization}{3}
+\contentsline {subsection}{Making Choices}{3}
+\contentsline {subsection}{Shortcuts}{3}
+\contentsline {subsection}{Onboard users quickly}{3}
+\contentsline {section}{Sector (approx 400 words)}{4}
+\contentsline {subsection}{Google Wallpapers}{4}
+\contentsline {subsection}{Wallpaper Changer}{4}
+\contentsline {section}{Personas \& User Requirements}{4}
+\contentsline {section}{Designs}{4}
+\contentsline {section}{Evaluation}{5}
+\contentsline {section}{Conclusions}{5}
+\contentsline {section}{Presentation}{5}
+\contentsline {section}{References}{5}

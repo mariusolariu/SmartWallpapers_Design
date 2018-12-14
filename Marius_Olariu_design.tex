@@ -1,0 +1,197 @@
+\documentclass[]{article}
+
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+\usepackage{titlesec}
+
+\titlespacing*{\section}{0pt}{3ex}{3ex}
+\titlespacing*{\subsection}{0pt}{1.5ex}{1.5ex}
+\titlespacing*{\subsubsection}{0pt}{1.5ex}{1.5ex}
+
+\usepackage[margin = 0.8in]{geometry}
+
+% dont number sections
+\setcounter{secnumdepth}{0}
+
+\usepackage{wrapfig}
+\usepackage{float}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}	
+		\includegraphics[width = 5cm,height = 1.5cm]{./imgs/uws_logo.png}\\[5cm]
+	
+{ \huge \bfseries %
+		SmartWallpapers\\ \Large
+		\textasciitilde \textit{~lifestyle mobile application~} \textasciitilde\\ 
+}
+	\vspace{2cm}			
+			
+		\begin{flushright}
+				\large Student:\\
+				Marius-Lucian Olariu\\[1cm]
+		\end{flushright}
+		
+	
+		\begin{flushleft}
+			 \large
+				Lecturer: \\
+				Linda Crearie \\[1cm]
+		\end{flushleft}
+		
+	\vspace{2cm}	
+	
+		
+		\vfill
+		
+		{\large {Word count: 155 + 1150 +\\ Paisley \\ 2018}}
+		\end{center}
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+
+	\centering
+
+	\includegraphics[width = 0.3\textwidth]{imgs/sw_splash.png}
+
+	\caption{SmartWallpapers logo screen}
+
+\end{wrapfigure}
+
+SmartWallpapers will be a lifestyle app that aims to help the users to stay positive in their lives by changing the phone’s wallpaper tailored to user’s preference and giving the possibility to add a motivational quote on top of the wallpaper. It will use Google’s machine learning services in the background in order to figure out the content of a image liked by the user so that in the future it will display on the home screen images with similar content (e.g. only nature phtography or cityscape photography). The wallpaper is changed automatically at a predefined time interval chosen by the user (e.g. 30 min). By changing the wallpaper automatically and the possiblity to set motivational quotes (even created by the user) the app gives the user the chance to see new places and stay motivated throughout the day, take his/her away from the daily routine and daydream about beautiful places from around the world.
+
+
+\section{Research Developments }
+
+	In this section I will discuss the current and future types of \textit{User Interfaces}. In order to talk about the future it is often good to know what has happened in the past, in our case, the past of \textit{User Interfaces}. In the early days of computing, around 1940s, computers used punched cards (paper cards having perforated holes) to read data and to execute programs (set of instructions stored on these punched cards). In this stage, there is no actual \textit{User Interface}, the computer just reads input and outputs the result of computation. One example of a program that can be stored on a set of punched cards is a basic algorithm used to fire a torpedo at a moving target (submarines in World War 2 used a program of this kind). However, this type of computing is pretty limited in the sense that there is no interaction between the human and the computer, there is no memory and it takes time to obtain valuable results. \\
+
+	\indent 
+	The first type of user interface for a computer was developed around 1950s for interfacing with computers over teletypes machines and became popular from 1965-1980  . At that time, roughly 1965-1980, computers were more than basic computation devices (i.e. they resembled modern day computers). This type of user interface allowed the user to interact with the computer by issuing commands, that's why it is known as \textit{Command Line User Interface (CLI)}. It is known that this type of user interface is not for non-technical people and computers having only this type of interface would have not been succesfull for the general-purpose computer market. However, this type of interface is widely used among computer specialists even at this time since it provides a faster way to interact with the computer than Graphical User Interface (GUI) (to be discussed later). Modern operating systems have programs that provide CLI like Command Prompt (Windows) and Terminal (macOS/Linux). The author is using CLI and a text editor program running within the terminal (i.e. VIM) for writing this document. \\
+
+	\indent
+	The next stage for user interfaces is represented by GUIs which was developed by \textit{Standford Research Insitute} between 1960-1966. This user interface allows  users to interact with the computer in a more friendly way than the previous one - CLI. Software programs have GUIs (i.e. windows with buttons and text) through which the user can  solve certain tasks. This type of user interface was popularized to the mass-market by Apple in their's Lisa(1983) and Macintosh(1984) computers.\\
+
+	\indent
+	The advances in speech recognition and natural language processing pave the way to  a new type of user interface, namely, \textit{Voice User Interface} (VUIs). This type of user interface allows the user to issue voice commands in order to solve certain tasks (e.g. "Alexa, set an alarm for 30 minutes"). There are various types of VUIs on the market right now, but most important are: Siri, Google Assistant and Alexa. Sometimes to use a GUI is not feasible, for example when driving, having a monitor and keyboard in a certain room is not practical or for users with disabilities. The  VUIs allow user to focus his/her attention to some other task while interacting with a computer system. However, there are some challenges for VUIs like no clear distinction on what the system can do (might lead to frustration sometimes for the users). In order to start using a VUIs interface the user needs to first calibrate the system with his voice. There is still a long way until VUIs are adopted by the mass-market.\\
+
+	\indent
+	SmartWallpapers will use a GUI for the moment but in the future there is the possibility to integrate it with the personal assistants like Siri(iOS) or Google Assistant(Android) that take voice commands to perform tasks. Now, because we are talking about the User Interface Design (UID) of a mobile app and not of a desktop application, special care needs to be taken. Apple(2018) and Google(2018) have published for their platforms guidelines on how to design the user interface, below the author will present the most relevant guidelines for SmartWallpapers.
+
+\subsection{App Organization}
+	There are four major ways of presenting the content of the app to users: 
+		\begin{itemize}
+			
+			\item scrolling pages and cards - for apps that provide content in categories (e.g. photo gallery)
+
+			\item bars and drawers -  for apps with multiple sections of content (e.g. Facebook: news feed, requests, messages etc.)
+
+			\item tree hierarchy - for apps with large number of features organized in categories which allow the user to drill down (e.g. Spotify: classic -> Andre Rieu -> album X -> songs)
+
+			\item content-driven - ideal for games where the developers want to provide a specific experience 
+
+		\end{itemize}
+
+	SmartWallpapers will use the \textit{scrolling pages and cards} organization style due to the fact that it needs to present the content (photos) in categories (e.g. nature, night sky, cityscape etc.).
+
+	\subsection{Making Choices}
+	Since the user of a mobile device might  on moving when using the device it is not practical to type, thus if possible is better to avoid asking the user to type anything. Both platforms (Android and iOS) provide widgets for making choices without the need for keyboard input. One example of such a widget is a picker which allows users to "pick" a date or set a timer, in our case, the user will be able to "pick" the change wallpaper interval.
+
+	\subsection{Shortcuts}
+	Gestures can really make the difference and are a way to speed-up things for advanced users. However, they need to be intuitive, easy to discover and easy to use. There are a set of standard gestures like: double-tap to zoom, tap and hold to copy, shake to undo or swipe to delete. For our app, the use can swipe left or right to express his/her preference regarding a certain photo. One important aspect of a system is to provide feedback (Norman, 2013) and especially for gestures.
+
+
+	\subsection{Onboard users quickly}
+	The first time the user encounters an app is decisive; if the user can understand the benefits and how to use it then the user will keep the app.
+Some features must be introduced to the user via a tutorial, this tutorial should contain also the reasons to keep the app.
+
+	There are 5 methodologies to onboard users:
+	
+	\begin{itemize}
+	
+		\item benefits-oriented -> show some images (max 3 recommended) with the benefits of the app at first launch
+
+		\item function-oriented -> show some images (max 3 recommended) with the basic features of the app
+
+		\item progresive        -> the features are explained when the user encounters the triggers (e.g. buttons, images etc.)
+
+		\item hybrid            -> combine benefits-oriented / function-oriented with progresive onboarding 
+		
+		\item video -> create a short presentation video (less than 1 min) 
+
+	\end{itemize}
+	
+	To sum it up, apart from the functionalities the app provides having a good design plays a decisive role in app aquisition and app retention.
+\section{Sector (approx 400 words)}
+	
+	In order to better understand the market and to develop an useful app a market analysis was required. In the following lines there is going to be presented similar apps to SmartWallpapers.
+
+\subsection{Google Wallpapers}
+		
+		\begin{wrapfigure}{R}{0.3\textwidth}
+	
+			\centering
+			\includegraphics[width=0.6\textwidth]{imgs/Google_Wallpapers.png}
+			\caption{Google Wallpapers}
+
+		\end{wrapfigure}
+
+		When it comes to applications developed by Google we as users always expect state of the art, some successful apps from them are \textit{Google Translate}, \textit{PhotoScan} or \textit{Google Photos}. However, \textit{Google Wallpapers} is pretty simple in my opinion. The range of wallpapers that it provides is quite small, you can select your wallpaper to be changed daily (but you can't change it every 2h if you choose to). Overall, it is a useful application but pretty limited in my opinon.
+
+
+		\subsection{Wallpaper Changer}
+		What \textit{Google Wallpapers} lacks, the feature to set the interval at which the wallpaper should be changed, this application provides.
+Also, it gives you the possibility to select a folder from system explorer with the image sources that are going to be used to change the wallpaper. There are other small features that this app provides, however the UI design is poor, the "Set Wallpaper"  feature does not work on my device and there is no tutorial for the app (is hard to learn how to use it).\\
+
+		\indent
+		To address the above mentioned drawbacks of the apps in this sector and to bring something new to the market \textit{SmartWallpapers} is going to be developed.
+		What makes our app different from what is already on the market?
+
+		\begin{itemize}
+			\item the automatic wallpaper changing without the need for the user to provide the photos (using his/her photography preferences)
+
+			\item the possibility to set the wallpaper changing inteval (compared to \textit{Google Wallpapers})
+			
+			\item a large set of photos to choose from, changed each 2-3 days from unsplash.com
+
+			\item the possibility to set a quote on top of the wallpaper
+
+			\item the possibility to search photos based on location or by input query
+
+		\end{itemize}
+
+\section{Personas \& User Requirements}
+
+\section{Designs}
+//multiple possibilities not good - i don't think it refers to gestures (e.g. tinder)
+
+//feedback for each action
+
+//knowing what to do: heart with green and cross with red (?)
+
+//give possibility to go back to last photo in case wants to revise his decision (but only to the last one, he can't go all the way back)
+
+//have actions that match users intentions (e.g.: Download a photo, beside being able to use it as wallpaper)
+\section{Evaluation}
+
+\section{Conclusions}
+
+\section{Presentation}
+
+\section{References}
+Apple. (2018) Available: https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/ [Accessed: 10 December 2018].\\
+
+Google. (2018) Available: https://developer.android.com/design/ [Accessed: 10 December 2018]. \\
+
+Norman, D. (2013) The Design Of Everyday Things, Revised And Expanded Edition. New York: Basic Books.\\
+\end{document}
+
