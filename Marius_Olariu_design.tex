@@ -1,9 +1,10 @@
-\documentclass[]{article}
+\documentclass[version=last,fontsize=13pt]{scrartcl}
 
 \usepackage{graphicx}
 \usepackage{indentfirst}
 
 \usepackage{titlesec}
+\usepackage{caption}
 
 \titlespacing*{\section}{0pt}{3ex}{3ex}
 \titlespacing*{\subsection}{0pt}{1.5ex}{1.5ex}
@@ -46,7 +47,7 @@
 		
 		\vfill
 		
-		{\large {Word count: 155 + 1150 +\\ Paisley \\ 2018}}
+		{\large {Word count: 155 + 1150 + 320  + 520\\ Paisley \\ 2018}}
 		\end{center}
 \end{titlepage}
 
@@ -131,7 +132,8 @@ Some features must be introduced to the user via a tutorial, this tutorial shoul
 	\end{itemize}
 	
 	To sum it up, apart from the functionalities the app provides having a good design plays a decisive role in app aquisition and app retention.
-\section{Sector (approx 400 words)}
+
+\section{Sector}
 	
 	In order to better understand the market and to develop an useful app a market analysis was required. In the following lines there is going to be presented similar apps to SmartWallpapers.
 
@@ -141,7 +143,7 @@ Some features must be introduced to the user via a tutorial, this tutorial shoul
 	
 			\centering
 			\includegraphics[width=0.6\textwidth]{imgs/Google_Wallpapers.png}
-			\caption{Google Wallpapers}
+			\caption*{Google Wallpapers}
 
 		\end{wrapfigure}
 
@@ -169,18 +171,142 @@ Also, it gives you the possibility to select a folder from system explorer with 
 
 		\end{itemize}
 
+\newpage
+
 \section{Personas \& User Requirements}
 
+\subsection{Persona 1}
+
+\begin{wrapfigure}{R}{0.4\textwidth}
+		
+	\centering
+	\includegraphics[width = 0.5\textwidth]{imgs/Lisa.jpg}
+	\caption*{Persona 1: Lisa - traveller}
+
+\end{wrapfigure}
+
+\noindent
+Name: Lisa \\
+Age: 40 \\
+Occupation: Travelling Agent \\
+Location: London, UK \\
+Tech Level: Moderate \\
+User Requirement: 
+	\begin{itemize}
+		\item  app easy to use
+		\item  find location of a photo
+		\item  ability to share photo 
+	\end{itemize}
+
+ After receiving a bachelor degree in \textit{English Language and Literature} Lisa has taught English in several different countries from Asia and Middle East. While she was there she travelled around and saw the world. Based on her travelling experience she has been given a position as travelling sales agent at a company based in London. She decided that was time to go home and accepted the position. Although being home is good she doesn't have that much free time to travel around as in the past so whenever she has a free weekend she wants to make the most of it and go to an amazing location.
+
+\subsection{Persona 2}
+
+\begin{wrapfigure}{R}{0.4\textwidth}
+		
+	\centering
+	\includegraphics[width = 0.5\textwidth]{imgs/Alan.jpg}
+	\caption*{Persona 2: Allan - businessman}
+
+
+\end{wrapfigure}
+
+\noindent
+Name: Allan\\
+Age: 35\\
+Occupation: Project Manager\\
+Location: New York, USA\\
+Tech Level: Expert\\
+User Requirement:
+	\begin{itemize}
+		\item ability to customize app and use shortcuts
+		\item possibility to add motivational quote on home screen
+		\item ability to share photo
+	\end{itemize}
+
+	Allan is a Project Manager for a top tech IT company in Manhattan (New York) and he works 996 (each day from 9am to 9pm and 6 hours on a Sunday). He is an achievingtype of person and has dedicated his whole life to career. Having such a busy program, sometimes he needs some extra motivation or to see a new place even on his smartphone screen. Nonetheless, there is no time for daydreaming and browsing the internet to look for motivational quotes or photography.
+
+\subsection{Persona 3}
+
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+		
+	\centering
+	\includegraphics[width = 0.4\textwidth]{imgs/Patrick.jpg}
+	\caption*{Persona 3: Patrick - young professional}
+
+
+\end{wrapfigure}
+
+\noindent
+Name: Patrick\\
+Age: 27\\
+Occupation: Junior Software Engineer\\
+Location: Dubai, United Arab Emirates\\
+Tech Level: Expert\\
+User Requirement:
+	\begin{itemize}
+		\item lots of content
+		\item always new photography
+		\item location based photography
+	\end{itemize}
+
+Patrick has just moved to Dubai to work for a new IT startup with great potential. During his childhood he travelled a lot with his family but they did not afford to visit Middle East so this job opportunity seemed appealing to him. Because he works for a startup he doesn't have that many colleagues, moreover, he doesn't speak Arabic so making new friends outside of work seems hard. He decided to visit the Middle East as much as possible while he is there. An application that could show him nearby sights seems interesting to him.
+
+\subsection{Persona 4}
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+	
+	\centering
+	\includegraphics[width = 0.4\textwidth]{imgs/Anne.jpg}
+	\caption*{Persona 4: Anne - retired diplomat}
+
+\end{wrapfigure}
+
+\noindent
+Name: Anne\\
+Age:  62\\
+Occupation: Retired Diplomat\\
+Location: Washington, DC\\
+Tech Level: Basic\\
+User Requirement:
+	\begin{itemize}
+		\item easy to use 
+		\item help after a mistake has been made when using the app 
+		\item possibility to see photos from visited places
+	\end{itemize}
+
+	Anne and her husband have been working for different USA Embassies in different corners of the world. Now they enjoy their retirenment and like to be at home in DC.However, they enjoy seeing fresh photography from the places where they lived and are interested how the politic situation is evolving at home and abroad. They are amazed how the technology is making things possible and are open to learn how to use it.
+
 \section{Designs}
-//multiple possibilities not good - i don't think it refers to gestures (e.g. tinder)
+//multiple possibilities not good - i don't think it refers to gestures (e.g. tinder) \\
 
-//feedback for each action
+//feedback for each action \\
 
-//knowing what to do: heart with green and cross with red (?)
+//knowing what to do: heart with green and cross with red (?)\\
 
-//give possibility to go back to last photo in case wants to revise his decision (but only to the last one, he can't go all the way back)
+//give possibility to go back to last photo in case wants to revise his decision (but only to the last one, he can't go all the way back)\\
 
-//have actions that match users intentions (e.g.: Download a photo, beside being able to use it as wallpaper)
+//have actions that match users intentions (e.g.: Download a photo, beside being able to use it as wallpaper)\\
+
+\subsection{Photo categories screen}
+
+	\\going back from a category save scroll position
+
+\subsection{Inside a category screen}
+ \\mention about when tapping on a photo - opens dialog
+	\\ liking/disliking a photo takes it out of category
+	\\scroll position saved
+
+\subsection{Quotes screen}
+
+\subsection{Search}
+
+\subsection{Add new quote}
+	\\talk about positioning
+	\\talk about viewing your quotes
+
+\subsection{Other options screen}
 \section{Evaluation}
 
 \section{Conclusions}

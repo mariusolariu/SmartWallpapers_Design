@@ -1,15 +1,19 @@
-\contentsline {section}{Introduction}{2}
-\contentsline {section}{Research Developments }{2}
-\contentsline {subsection}{App Organization}{3}
-\contentsline {subsection}{Making Choices}{3}
-\contentsline {subsection}{Shortcuts}{3}
-\contentsline {subsection}{Onboard users quickly}{3}
-\contentsline {section}{Sector (approx 400 words)}{4}
-\contentsline {subsection}{Google Wallpapers}{4}
-\contentsline {subsection}{Wallpaper Changer}{4}
-\contentsline {section}{Personas \& User Requirements}{4}
-\contentsline {section}{Designs}{4}
-\contentsline {section}{Evaluation}{5}
-\contentsline {section}{Conclusions}{5}
-\contentsline {section}{Presentation}{5}
-\contentsline {section}{References}{5}
+\contentsline {section}{Introduction}{3}
+\contentsline {section}{Research Developments }{3}
+\contentsline {subsection}{App Organization}{4}
+\contentsline {subsection}{Making Choices}{5}
+\contentsline {subsection}{Shortcuts}{5}
+\contentsline {subsection}{Onboard users quickly}{5}
+\contentsline {section}{Sector}{5}
+\contentsline {subsection}{Google Wallpapers}{6}
+\contentsline {subsection}{Wallpaper Changer}{6}
+\contentsline {section}{Personas \& User Requirements}{7}
+\contentsline {subsection}{Persona 1}{7}
+\contentsline {subsection}{Persona 2}{7}
+\contentsline {subsection}{Persona 3}{8}
+\contentsline {subsection}{Persona 4}{8}
+\contentsline {section}{Designs}{9}
+\contentsline {section}{Evaluation}{9}
+\contentsline {section}{Conclusions}{9}
+\contentsline {section}{Presentation}{9}
+\contentsline {section}{References}{9}
