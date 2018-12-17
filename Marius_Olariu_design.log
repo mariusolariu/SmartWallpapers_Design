@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  14 DEC 2018 12:41
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  17 DEC 2018 16:37
  restricted system commands enabled.
 **Marius_Olariu_design.tex
 (./Marius_Olariu_design.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.125 seconds
+luaotfload | main : initialization completed in 0.122 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
@@ -258,36 +258,74 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box31
 )
-(./Marius_Olariu_design.aux)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count95
+\c@subtable=\count96
+)
+(./Marius_Olariu_design.aux
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:transition' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+)
 \openout1 = Marius_Olariu_design.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count97
 \scratchdimen=\dimen127
 \scratchbox=\box32
-\nofMPsegments=\count96
-\nofMParguments=\count97
+\nofMPsegments=\count98
+\nofMParguments=\count99
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count98
+\MPscratchCnt=\count100
 \MPscratchDim=\dimen128
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -378,7 +416,7 @@ Package caption Info: End \AtBeginDocument code.
 <./imgs/uws_logo.png, id=1, 2007.5pt x 305.14pt>
 File: ./imgs/uws_logo.png Graphic file (type png)
 <use ./imgs/uws_logo.png>
-Package luatex.def Info: ./imgs/uws_logo.png  used on input line 25.
+Package luatex.def Info: ./imgs/uws_logo.png  used on input line 28.
 (luatex.def)             Requested size: 142.25475pt x 42.6774pt.
 (load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman17-regular.luc)(load luc: /Users/macbookpro/Library/texlive/20
@@ -431,36 +469,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <imgs/sw_splash.png, id=16, 302.12875pt x 665.48625pt>
 File: imgs/sw_splash.png Graphic file (type png)
 <use imgs/sw_splash.png>
-Package luatex.def Info: imgs/sw_splash.png  used on input line 66.
+Package luatex.def Info: imgs/sw_splash.png  used on input line 69.
 (luatex.def)             Requested size: 144.56412pt x 318.42447pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 [][]|\TU/lmr/m/n/13 Smart-Wall-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \TU/lmr/m/n/13 pa-pers logo
  []
 
 (load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman12-italic.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-
- []
-
-[3<./imgs/sw_splash.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
-
+[3<./imgs/sw_splash.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
@@ -468,15 +506,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 <imgs/Google_Wallpapers.png, id=28, 963.6pt x 722.7pt>
 File: imgs/Google_Wallpapers.png Graphic file (type png)
 <use imgs/Google_Wallpapers.png>
-Package luatex.def Info: imgs/Google_Wallpapers.png  used on input line 145.
+Package luatex.def Info: imgs/Google_Wallpapers.png  used on input line 148.
 (luatex.def)             Requested size: 289.12825pt x 216.84474pt.
 
-Overfull \hbox (144.56413pt too wide) in paragraph at lines 145--146
+Overfull \hbox (144.56413pt too wide) in paragraph at lines 148--149
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
@@ -484,92 +522,374 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
 <imgs/Lisa.jpg, id=33, 903.375pt x 603.25375pt>
 File: imgs/Lisa.jpg Graphic file (type jpg)
 <use imgs/Lisa.jpg>
-Package luatex.def Info: imgs/Lisa.jpg  used on input line 183.
+Package luatex.def Info: imgs/Lisa.jpg  used on input line 186.
 (luatex.def)             Requested size: 240.93776pt x 160.89243pt.
 
-Overfull \hbox (48.1905pt too wide) in paragraph at lines 183--184
+Overfull \hbox (48.1905pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
 <imgs/Alan.jpg, id=34, 855.195pt x 481.8pt>
 File: imgs/Alan.jpg Graphic file (type jpg)
 <use imgs/Alan.jpg>
-Package luatex.def Info: imgs/Alan.jpg  used on input line 208.
+Package luatex.def Info: imgs/Alan.jpg  used on input line 212.
 (luatex.def)             Requested size: 240.93776pt x 135.73381pt.
 
-Overfull \hbox (48.1905pt too wide) in paragraph at lines 208--209
+Overfull \hbox (48.1905pt too wide) in paragraph at lines 212--213
  [][] 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 223--224
+Underfull \hbox (badness 1062) in paragraph at lines 227--228
 []\TU/lmr/m/n/13 pos-si-bil-ity to add mo-ti-va-tional quote on
  []
 
-<imgs/Patrick.jpg, id=35, 1433.355pt x 1677.26625pt>
+[7<./imgs/Lisa.jpg><./imgs/Alan.jpg>]
+<imgs/Patrick.jpg, id=38, 1433.355pt x 1677.26625pt>
 File: imgs/Patrick.jpg Graphic file (type jpg)
 <use imgs/Patrick.jpg>
-Package luatex.def Info: imgs/Patrick.jpg  used on input line 235.
+Package luatex.def Info: imgs/Patrick.jpg  used on input line 239.
 (luatex.def)             Requested size: 192.74725pt x 225.52542pt.
 
-Overfull \hbox (48.18314pt too wide) in paragraph at lines 235--236
+Overfull \hbox (48.18314pt too wide) in paragraph at lines 239--240
  [][] 
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 236--236
+Underfull \hbox (badness 5578) in paragraph at lines 240--240
 [][]|\TU/lmr/m/n/13 Per-sona 3: Patrick -
  []
 
-[7<./imgs/Lisa.jpg><./imgs/Alan.jpg>]
 <imgs/Anne.jpg, id=39, 240.9pt x 160.6803pt>
 File: imgs/Anne.jpg Graphic file (type jpg)
 <use imgs/Anne.jpg>
-Package luatex.def Info: imgs/Anne.jpg  used on input line 261.
+Package luatex.def Info: imgs/Anne.jpg  used on input line 265.
 (luatex.def)             Requested size: 192.74725pt x 128.56647pt.
 
-Overfull \hbox (48.18314pt too wide) in paragraph at lines 261--262
+Overfull \hbox (48.18314pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
 [8<./imgs/Patrick.jpg><./imgs/Anne.jpg>]
-Overfull \hbox (149.87392pt too wide) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+<imgs/Categories.jpg, id=43, 1445.4pt x 2971.1pt>
+File: imgs/Categories.jpg Graphic file (type jpg)
+<use imgs/Categories.jpg>
+Package luatex.def Info: imgs/Categories.jpg  used on input line 303.
+(luatex.def)             Requested size: 144.56412pt x 297.12741pt.
+
+Underfull \hbox (badness 2452) in paragraph at lines 307--309
+[][]\TU/lmr/m/n/13 In or-der to pro-vide users with dif-fer-ent types of
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 307--309
+\TU/lmr/m/n/13 pers uses an on-line provider, namely \TU/lmr/m/it/13 un-splash.
+com \TU/lmr/m/n/13 .
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 307--309
+\TU/lmr/m/n/13 This is ideal for Lisa (Per-sona 1) and Patrick (Per-
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 307--309
+\TU/lmr/m/n/13 sona 3) who want a lot of con-tent to be pro-vided
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 307--309
+\TU/lmr/m/n/13 by the app .From the 4 app or-ga-ni-za-tion method-
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 307--309
+\TU/lmr/m/n/13 olo-gies pre-sented in the \TU/lmr/m/it/13 Re-search De-vel-op-m
+ents \TU/lmr/m/n/13 sec-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 307--309
+\TU/lmr/m/n/13 Each type of pho-tog-ra-phy is or-ga-nized in cat-e-gories;
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 307--309
+\TU/lmr/m/n/13 the cat-e-gories change each 2-3 days. As it can
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 307--309
+\TU/lmr/m/n/13 be seen in the screen-shot to the right of text,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+
+ []
+
+File: imgs/Categories.jpg Graphic file (type jpg)
+<use imgs/Categories.jpg>
+Package luatex.def Info: imgs/Categories.jpg  used on input line 318.
+(luatex.def)             Requested size: 108.42125pt x 222.82289pt.
+<imgs/Inside_category.jpg, id=44, 1445.4pt x 2971.1pt>
+File: imgs/Inside_category.jpg Graphic file (type jpg)
+<use imgs/Inside_category.jpg>
+Package luatex.def Info: imgs/Inside_category.jpg  used on input line 324.
+(luatex.def)             Requested size: 108.42125pt x 222.82289pt.
+File: imgs/Inside_category.jpg Graphic file (type jpg)
+<use imgs/Inside_category.jpg>
+Package luatex.def Info: imgs/Inside_category.jpg  used on input line 341.
+(luatex.def)             Requested size: 144.56412pt x 297.12741pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[][]|\TU/lmr/m/n/13 View in-side
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\TU/lmr/m/n/13 ”land-scape”
+ []
+
+[9<./imgs/Categories.jpg>]
+Underfull \hbox (badness 1442) in paragraph at lines 345--346
+[][]\TU/lmr/m/n/13 As can be seen in the photo from the right, for
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 345--346
+\TU/lmr/m/n/13 each photo there are 3 ac-tions that can be per-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 345--346
+\TU/lmr/m/n/13 formed on it. The ac-tions are (left to right): like
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 345--346
+\TU/lmr/m/n/13 (heart icon but-ton), set photo as wall-pa-per (mid-dle
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 345--346
+\TU/lmr/m/n/13 but-ton) and dis-like (cross icon but-ton). When tap-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 345--346
+\TU/lmr/m/n/13 ping like but-ton the photo dis-ap-pears from the list
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 345--346
+\TU/lmr/m/n/13 and is go-ing to be queued for dis-play-ing it on the
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 345--346
+\TU/lmr/m/n/13 home screen. On tap-ping dis-like but-ton the photo
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 345--346
+\TU/lmr/m/n/13 is just taken out of the cat-e-gory. Also, if the
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 345--346
+\TU/lmr/m/n/13 user wants it is pos-si-ble to see a photo in ”full-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 345--346
+\TU/lmr/m/n/13 screen” mode by sin-gle tap-ping on it ( Fig-ure  4[]).
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 345--346
+\TU/lmr/m/n/13 When in full-screen mode, lik-ing/dis-lik-ing a photo
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 345--346
+\TU/lmr/m/n/13 gets the next photo af-ter cur-rent one to be dis-pa-
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 345--346
+\TU/lmr/m/n/13 is good not to force the user to per-from a cer-
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 345--346
+\TU/lmr/m/n/13 tain task, thus if the user is un-de-cided sim-ply tap-
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 345--346
+\TU/lmr/m/n/13 ping the photo brings the next one, thus the app
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 345--346
+\TU/lmr/m/n/13 is not forc-ing the user to ex-press his/her pref-er-ence
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 345--346
+\TU/lmr/m/n/13 on the spot. There is also the pos-si-bil-ity to close
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 345--346
+\TU/lmr/m/n/13 the full-screen mode us-ing the top-right cross but-ton
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 345--346
+\TU/lmr/m/n/13 (see Fig-ure 4[]). I think this in-ter-face is easy to
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 345--346
+\TU/lmr/m/n/13 use so it suits Lisa (Per-sona 1) and Anne (Per-sona
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+<imgs/FSPhoto.jpg, id=48, 1445.4pt x 2971.1pt>
+File: imgs/FSPhoto.jpg Graphic file (type jpg)
+<use imgs/FSPhoto.jpg>
+Package luatex.def Info: imgs/FSPhoto.jpg  used on input line 350.
+(luatex.def)             Requested size: 144.56412pt x 297.12741pt.
+[10<./imgs/Inside_category.jpg>]
+<imgs/SearchQuery.jpg, id=52, 1445.4pt x 2971.1pt>
+File: imgs/SearchQuery.jpg Graphic file (type jpg)
+<use imgs/SearchQuery.jpg>
+Package luatex.def Info: imgs/SearchQuery.jpg  used on input line 363.
+(luatex.def)             Requested size: 120.46887pt x 247.62128pt.
+<imgs/SearchPerformed.jpg, id=53, 1445.4pt x 2971.1pt>
+File: imgs/SearchPerformed.jpg Graphic file (type jpg)
+<use imgs/SearchPerformed.jpg>
+Package luatex.def Info: imgs/SearchPerformed.jpg  used on input line 369.
+(luatex.def)             Requested size: 132.5165pt x 272.37434pt.
+
+Overfull \hbox (24.09525pt too wide) in paragraph at lines 361--373
+ []$[]$$[]$ 
+ []
+
+[11<./imgs/FSPhoto.jpg>]
+<imgs/QuotesList.jpg, id=58, 1445.4pt x 2971.1pt>
+File: imgs/QuotesList.jpg Graphic file (type jpg)
+<use imgs/QuotesList.jpg>
+Package luatex.def Info: imgs/QuotesList.jpg  used on input line 387.
+(luatex.def)             Requested size: 144.56412pt x 297.12741pt.
+ [12<./imgs/SearchQuery.jpg><./imgs/SearchPerformed.jpg>]
+<imgs/TuneQuote.jpg, id=62, 1445.4pt x 2971.1pt>
+File: imgs/TuneQuote.jpg Graphic file (type jpg)
+<use imgs/TuneQuote.jpg>
+Package luatex.def Info: imgs/TuneQuote.jpg  used on input line 396.
+(luatex.def)             Requested size: 132.5165pt x 272.37434pt.
+<imgs/QuoteHomeScreen.jpg, id=63, 1445.4pt x 2971.1pt>
+File: imgs/QuoteHomeScreen.jpg Graphic file (type jpg)
+<use imgs/QuoteHomeScreen.jpg>
+Package luatex.def Info: imgs/QuoteHomeScreen.jpg  used on input line 402.
+(luatex.def)             Requested size: 132.5165pt x 272.37434pt.
+
+Overfull \hbox (48.19049pt too wide) in paragraph at lines 395--406
+ []$[]$$[]$ 
+ []
+
+[13<./imgs/QuotesList.jpg><./imgs/TuneQuote.jpg><./imgs/QuoteHomeScreen.jpg>]
+<imgs/AddQuote.jpg, id=67, 1445.4pt x 2569.6pt>
+File: imgs/AddQuote.jpg Graphic file (type jpg)
+<use imgs/AddQuote.jpg>
+Package luatex.def Info: imgs/AddQuote.jpg  used on input line 417.
+(luatex.def)             Requested size: 132.5165pt x 235.567pt.
+<imgs/My_Quotes.jpg, id=68, 1445.4pt x 2971.1pt>
+File: imgs/My_Quotes.jpg Graphic file (type jpg)
+<use imgs/My_Quotes.jpg>
+Package luatex.def Info: imgs/My_Quotes.jpg  used on input line 423.
+(luatex.def)             Requested size: 132.5165pt x 272.37434pt.
+
+Overfull \hbox (48.19049pt too wide) in paragraph at lines 415--427
+ []$[]$$[]$ 
+ []
+
+<imgs/Options.jpg, id=69, 1445.4pt x 2971.1pt>
+File: imgs/Options.jpg Graphic file (type jpg)
+<use imgs/Options.jpg>
+Package luatex.def Info: imgs/Options.jpg  used on input line 437.
+(luatex.def)             Requested size: 144.56412pt x 297.12741pt.
+[14<./imgs/AddQuote.jpg><./imgs/My_Quotes.jpg>]
+Overfull \hbox (149.87392pt too wide) in paragraph at lines 461--462
 []\TU/lmr/m/n/13 Ap-ple. (2018) Avail-able: https://de-vel-oper.ap-ple.com/de-s
 ign/human-interface-guidelines/ios/overview/themes/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+[15<./imgs/Options.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
-
- []
-
-[9] (./Marius_Olariu_design.aux)
+[16] (./Marius_Olariu_design.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 5594 strings out of 494413
+ 5795 strings out of 494413
  100000,319454 words of node,token memory allocated
  390 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 52 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 1:3,2:301,3:115,4:56,5:220,6:25,7:3522,8:24,9:115,10:49,11:240
- 9536 multiletter control sequences out of 65536+600000
- 43 fonts using 3159175 bytes
- 51i,7n,51p,9098b,273s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:3,2:396,3:151,4:77,5:219,6:28,7:3522,8:28,9:140,10:68,11:240
+ 9651 multiletter control sequences out of 65536+600000
+ 44 fonts using 3290855 bytes
+ 51i,7n,51p,9098b,505s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.ot
 f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular
 .otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.
@@ -577,10 +897,10 @@ otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-regul
 ar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bo
 lditalic.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroma
 n12-bold.otf>
-Output written on Marius_Olariu_design.pdf (9 pages, 2743003 bytes).
+Output written on Marius_Olariu_design.pdf (16 pages, 15035672 bytes).
 
-PDF statistics: 84 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+PDF statistics: 118 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

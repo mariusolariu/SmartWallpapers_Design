@@ -18,6 +18,9 @@
 \usepackage{wrapfig}
 \usepackage{float}
 
+\usepackage{caption}
+\usepackage{subcaption}
+
 \begin{document}
 
 \begin{titlepage}
@@ -195,6 +198,7 @@ User Requirement:
 	\begin{itemize}
 		\item  app easy to use
 		\item  find location of a photo
+		\item a lot of content
 		\item  ability to share photo 
 	\end{itemize}
 
@@ -289,25 +293,161 @@ User Requirement:
 
 //have actions that match users intentions (e.g.: Download a photo, beside being able to use it as wallpaper)\\
 
-\subsection{Photo categories screen}
 
-	\\going back from a category save scroll position
+	In the  following lines I am going to present and discuss the designs for a prototype version of this app.
 
-\subsection{Inside a category screen}
- \\mention about when tapping on a photo - opens dialog
-	\\ liking/disliking a photo takes it out of category
-	\\scroll position saved
+\subsection{Photo categories interface}
+\begin{wrapfigure}{R}{0.3\textwidth}
 
-\subsection{Quotes screen}
+	\centering
+	\includegraphics[width = 0.3\textwidth]{imgs/Categories.jpg}
+	\caption*{Fig 2: Photos organized in categories (albums)}
 
-\subsection{Search}
+\end{wrapfigure}
+	In order to provide  users with different types of photography and a large set of photos, SmartWallpapers uses an online provider, namely \textit{unsplash.com} .
+This is ideal for Lisa (Persona 1) and Patrick (Persona 3) who want a lot of content to be provided by the app .From the 4 app organization methodologies presented in the \textit{Research Developments} section, SmartWallpapers uses \textit{scrolling pages and cards}. Each type of photography is organized in categories; the categories change each 2-3 days. As it can be seen in the screenshot to the right of text, there is a category dedicated to\textit{Christmas}, since it is close. \\
 
-\subsection{Add new quote}
-	\\talk about positioning
-	\\talk about viewing your quotes
+	In this screen the user has multiple possibilites to interact with the app, we're going to present the most important ones. For each type of category there are 2 types of possible actions: like (heart button) or dislike (cross button). If the user likes a category then all the photos from within will be queued to be displayed on the screen. After liking it, the category (or album) disappears from this screen. The user can also choose to enter in a category by a single tap on it and then like/dislike indivitual photos (see figure ~\ref{fig:transition}). Before entering a category the scroll position is saved.
 
-\subsection{Other options screen}
+	%going back from a category save scroll position
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.45\linewidth]{imgs/Categories.jpg}
+  \caption{Categories view}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.45\linewidth]{imgs/Inside_category.jpg}
+  \caption{View inside "landscape" category}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Transition from a category to the photos it contains using single tap}
+\label{fig:transition}
+\end{figure}
+
+\vspace{2cm}
+
+\subsection{Contents of category interface}
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+  \centering
+  \includegraphics[width=0.3\textwidth]{imgs/Inside_category.jpg}
+  \caption{View inside "landscape" category}
+\end{wrapfigure}
+
+	As can be seen in the photo from the right, for each photo there are 3 actions that can be performed on it. The actions are (left to right): like (heart icon button), set photo as wallpaper (middle button) and dislike (cross icon button). When tapping like button the photo disappears from the list and is going to be queued for displaying it on the home screen. On tapping dislike button the photo is just taken out of the category. Also, if the user wants it is possible to see a photo in "full-screen" mode by single tapping on it ( Figure ~\ref{fig:fullscreen}). When in full-screen mode, liking/disliking a photo gets the next photo after current one to be dispalyed in full-screen mode. According to Norman(2013) is good not to force the user to perfrom a certain task, thus if the user is undecided simply tapping the photo brings the next one, thus the app is not forcing the user to express his/her preference on the spot. There is also the possibility to close the full-screen mode using the top-right cross button (see Figure~\ref{fig:fullscreen}). I think this interface is easy to use so it suits Lisa (Persona 1) and Anne (Persona 4).\\
+
+\begin{figure}[H]
+
+	\centering
+	\includegraphics[width = 0.3\textwidth]{imgs/FSPhoto.jpg}
+	\caption{View of photo displayed in full-screen mode}
+	\label{fig:fullscreen}
+
+\end{figure}
+
+\subsection{Search feature interface}
+	The search functionality of prototype-SmartWallpapers allows users to search images based on a query (e.g. "Big Ben", "Eiffel Tower" etc.) or on user's current location (i.e. the country where the user is at a specific time). This is ideal for Patrick (Persona 3) and Anne (Persona 4) who want specific type of photography to be set on their home-screen, places where they have been or where they live.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{imgs/SearchQuery.jpg}
+  \caption{View for performing a search using a query string}
+  \label{fig:sub1}
+\end{subfigure}
+\begin{subfigure}{.55\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{imgs/SearchPerformed.jpg}
+  \caption{View displaying the result of the search}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Performing a search of photos based on query or current location (country)}
+\label{fig:transition}
+\end{figure}
+
+
+\subsection{Quotes feature interface}
+	For some users it is important to stay motivated and focused on their tasks throughout the day thus being able to see a motivational quote, here and then, when they use their phone is a useful feature. The user is able to pick a quote from a large database of quotes (around 72000) or add his favourite quote and set it on the home-screen. From design perspective, interacting with a quote is the same as with interacting with a photo,  we know that consistency is important. The user  can choose the position (i.e. top, center or bottom), the size of the text (i.e. large, medium or small) and the colour of text (white, black or green)  of the quote that is going to be displayed on the home-screen (see Figure~\ref{fig:setQuote}).  
+
+
+\begin{figure}[H]
+
+  \centering
+  \includegraphics[width=.3\linewidth]{imgs/QuotesList.jpg}
+  \caption{View of the quotes}
+  \label{fig:quotes}
+
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.55\textwidth}  \centering
+  \includegraphics[width=.5\linewidth]{imgs/TuneQuote.jpg}
+  \caption{Possibility to tune quote parameters}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.55\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{imgs/QuoteHomeScreen.jpg}
+  \caption{Quote displayed on the home-screen according to user's selected configuration}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Interacting with a quote in order to display it on the home-screen}
+\label{fig:setQuote}
+\end{figure}
+
+\subsection{Add quote by user interface}
+	To add a new quote the user should use the top-right button ( "+" icon) and to see the quotes added by him should use the top-left button (eye icon) from quotes main screen (see Figure~\ref{fig:quotes}). After the user inputs the quote he/she wants to add there are three possible actions: cancel, save and like. The functionality of cancel and save buttons is obvious, the like button will save and also set the quote on the home-screen. Notice how the colours of the buttons are chosen in this screen. 	
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.55\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{imgs/AddQuote.jpg}
+  \caption{View for adding a new quote by user}
+  \label{fig:subAddQ}
+\end{subfigure}%
+\begin{subfigure}{.55\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{imgs/My_Quotes.jpg}
+  \caption{View showing quotes added by the user}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{User's favourite quotes}
+\label{fig:usersQuotes}
+\end{figure}
+
+\subsection{Accessing other features interface}
+	 SmartWallpapers prototype app provides several other screens and interactions. It contains a brief tutorial on how to use the app, the possibility to see what type of photography the user likes the most according to SmartWallpaper analysis of the liked photos, the screen to set the wallpaper-change interval and a screen to provide feedback to developers. 
+
+\begin{figure}[H]
+	
+	\centering
+	\includegraphics[width = 0.3\textwidth]{imgs/Options.jpg}
+	\caption*{Other types of interactions in SmartWallpaper prototype app}
+
+\end{figure}
+
 \section{Evaluation}
+	 In order to evaluate each interaction the author is going to do a cognitive walkthrough for each one of them.
+
+\subsection{Photo categories interface}
+
+\subsection{Contents of category interface}
+
+\subsection{Search feature interface}
+
+\subsection{Quotes feature interface}
+
+\subsection{Add quote by user interface}
+
+\subsection{Accessing other features interface}
 
 \section{Conclusions}
 

@@ -13,7 +13,19 @@
 \contentsline {subsection}{Persona 3}{8}
 \contentsline {subsection}{Persona 4}{8}
 \contentsline {section}{Designs}{9}
-\contentsline {section}{Evaluation}{9}
-\contentsline {section}{Conclusions}{9}
-\contentsline {section}{Presentation}{9}
-\contentsline {section}{References}{9}
+\contentsline {subsection}{Photo categories interface}{9}
+\contentsline {subsection}{Inside a category screen}{10}
+\contentsline {subsection}{Search}{11}
+\contentsline {subsection}{Quotes}{12}
+\contentsline {subsection}{Adding a quote by user}{14}
+\contentsline {subsection}{Other interactions}{14}
+\contentsline {section}{Evaluation}{15}
+\contentsline {subsection}{Photo categories interface}{16}
+\contentsline {subsection}{Contents of category interface}{16}
+\contentsline {subsection}{Search feature interface}{16}
+\contentsline {subsection}{Quotes feature interface}{16}
+\contentsline {subsection}{Add quote by user interface}{16}
+\contentsline {subsection}{Accessing other features interface}{16}
+\contentsline {section}{Conclusions}{16}
+\contentsline {section}{Presentation}{16}
+\contentsline {section}{References}{16}
